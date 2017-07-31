@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Cuprum|Philosopher|Play');
+
+
+
+#menubar ul{
+    display:flex;
+    list-style:none;
+    text-align: center;
+    padding: 0;
+}
+    
+#menubar li {
+    width: 16.66%;
+}
+
+
+a {
+      text-decoration: none; 
+    padding:10px;
+    font-family: 'Cuprum', sans-serif;
+}
+
+body {
+    font-family: 'Play', sans-serif;
+   background-color: #FFFFFF;
+   background-image: url(../images/background.jpg);
+   background-repeat:repeat-x;
+   background-position: right bottom;
+   background-attachment: fixed;
+    
+}
+
+/*main section, for div in the middle*/
+
+.main {
+    
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px;
+    width:930px;  
+    margin:auto;
+    background-color: rgba(255,255,255,0.5); 
+}
+
+/*css for headers*/
+
+h1{
+      text-align: center;
+  text-indent: 260px;
+  color:#000000;  
+  font-family: 'Philosopher', sans-serif;
+  font-size:50px; 
+  display: flex;
+  border: 2px solid;   
+  padding:20px;
+  margin: 10px 15px 10px 15px;
+  border-radius: 10px;
+  background-color: #90EE90;
+  
+ } 
+h2,h4{
+    
+    text-align: center;
+  text-indent: 260px;
+  color:#000000;  
+  font-family: 'Philosopher', sans-serif;
+  font-size:40px; 
+  display: flex; 
+    
+} 
+ 
+/*determines how paragraphs show*/ 
+ 
+P {
+  margin: 10px;
+  text-indent: 50px;
+  color: #000000;
+  font-family: 'Play', sans-serif;
+  font-size:20;
+  display: flex  
+}
+
+/*main content in center*/
+
+#content img{
+    
+    display:block;
+    margin:auto;
+    
+    
+    
+}
+
+/*footer info and links*/
+
+#footer a{
+background-color: rgba(255,255,255,0.5); 
+}
+ 
+     
+     
+     
+     
+ 
